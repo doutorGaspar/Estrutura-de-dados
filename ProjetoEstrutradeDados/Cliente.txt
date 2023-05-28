@@ -1,0 +1,11 @@
+Pedro Rodrigues;Leiria;112233445;3200
+Inês Ferreira;Aveiro;112358132;2000
+Maria Costa;Alentejo;141421356;250
+Sara Santos;Bragança;161803399;0
+Diogo Almeida;Funchal;271828182;1200
+Isabel Sousa;Portimão;314159265;750
+Ricardo Alves;Lisboa;135792468;0
+João Oliveira;Coimbra;246810121;550
+Ana Santos;Braga;987654321;2500
+Miguel Silva;Porto;123456789;1000
+

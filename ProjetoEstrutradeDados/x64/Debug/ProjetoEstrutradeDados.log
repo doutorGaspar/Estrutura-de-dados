@@ -1,0 +1,41 @@
+﻿  FileCliente.c
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\Cliente.h(32,2): warning C4091: 'typedef ': ignorado à esquerda de 'listacliente' quando nenhuma variável é declarada
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileCliente.c(174,4): warning C4033: 'alterarCliente' deve retornar um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileCliente.c(179,2): warning C4033: 'alterarCliente' deve retornar um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileCliente.c(168,1): warning C4133: 'inicializando': tipos incompatíveis - de 'cliente *' para 'listacliente *'
+  FileGestor.c
+  FileGrafo.c
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\Cliente.h(32,2): warning C4091: 'typedef ': ignorado à esquerda de 'listacliente' quando nenhuma variável é declarada
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileGrafo.c(156,9): warning C4033: 'salvarGrafoTexto' deve retornar um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileGrafo.c(297,16): warning C4477: 'printf': a cadeia de formato '%s' requer um argumento do tipo 'char *', mas um argumento variadic 1 tem o tipo 'int'
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileGrafo.c(297,16): warning C4313: 'printf': '%s' na cadeia de formato está em conflito com o argumento 1 do tipo 'int'
+  FileTransporte.c
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\Cliente.h(32,2): warning C4091: 'typedef ': ignorado à esquerda de 'listacliente' quando nenhuma variável é declarada
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileTransporte.c(54,13): warning C4033: 'removerElemento' deve retornar um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileTransporte.c(74,13): warning C4033: 'alterarElemento' deve retornar um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileTransporte.c(192,29): warning C4033: 'registarAluguer' deve retornar um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileTransporte.c(200,29): warning C4033: 'registarAluguer' deve retornar um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileTransporte.c(206,17): warning C4033: 'registarAluguer' deve retornar um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileTransporte.c(210,17): warning C4033: 'registarAluguer' deve retornar um valor
+  Main.c
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\Cliente.h(32,2): warning C4091: 'typedef ': ignorado à esquerda de 'listacliente' quando nenhuma variável é declarada
+  Gerando Código...
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileTransporte.c(78): warning C4716: 'alterarElemento': deve retornar um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileTransporte.c(59): warning C4716: 'removerElemento': deve retornar um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileTransporte.c(219): warning C4715: 'registarAluguer': nem todos os caminhos de controle retornam um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileTransporte.c(283): warning C4715: 'carregarTransporteBinario': nem todos os caminhos de controle retornam um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileTransporte.c(253): warning C4715: 'salvarTransporteBinario': nem todos os caminhos de controle retornam um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileGrafo.c(85): warning C4716: 'adicionarVertice': deve retornar um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileGrafo.c(111): warning C4716: 'adicionarAresta': deve retornar um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileGrafo.c(144): warning C4716: 'liberarGrafo': deve retornar um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileGrafo.c(182): warning C4716: 'salvarGrafoTexto': deve retornar um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileGrafo.c(210): warning C4715: 'salvarGrafoBinario': nem todos os caminhos de controle retornam um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileGrafo.c(308): warning C4716: 'exibirGrafo': deve retornar um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileGestor.c(126): warning C4715: 'salvarGestorBinario': nem todos os caminhos de controle retornam um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileGestor.c(156): warning C4715: 'carregarGestorBinario': nem todos os caminhos de controle retornam um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileCliente.c(90): warning C4716: 'removerCliente': deve retornar um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileCliente.c(61): warning C4715: 'inserirCliente': nem todos os caminhos de controle retornam um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileCliente.c(124): warning C4715: 'salvarClientesBinario': nem todos os caminhos de controle retornam um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileCliente.c(180): warning C4716: 'alterarCliente': deve retornar um valor
+C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\ProjetoEstrutradeDados\FileCliente.c(154): warning C4715: 'carregarClientesBinario': nem todos os caminhos de controle retornam um valor
+  ProjetoEstrutradeDados.vcxproj -> C:\Users\gaspar\Desktop\ProjetoEstrutradeDados\x64\Debug\ProjetoEstrutradeDados.exe
