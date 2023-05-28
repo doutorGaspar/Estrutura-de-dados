@@ -127,7 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FileAluguer.c" />
     <ClCompile Include="FileCliente.c" />
     <ClCompile Include="FileGestor.c" />
     <ClCompile Include="FileGrafo.c" />
@@ -135,7 +134,6 @@
     <ClCompile Include="Main.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Aluguer.h" />
     <ClInclude Include="Cliente.h" />
     <ClInclude Include="Gestor.h" />
     <ClInclude Include="Grafo.h" />
