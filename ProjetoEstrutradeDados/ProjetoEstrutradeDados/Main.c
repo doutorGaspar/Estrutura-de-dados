@@ -10,7 +10,8 @@
 #include "Cliente.h"
 #include "Gestor.h"
 #include "Transporte.h"
+#pragma warning(disable : 4996)
 
-
+int main() {}
 
 

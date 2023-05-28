@@ -9,6 +9,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+#pragma warning(disable : 4996)
 #pragma once
 
 #ifndef Clienteh
@@ -21,7 +22,22 @@ typedef struct cliente {
 	char morada[50];
 	int NIF;
 	double saldoConta;
-	cliente* proximo;
 }cliente;
+
+
+typedef struct listacliente listacliente;// separar o cliente do apontador proximo
+typedef struct listacliente {
+	cliente c;// cliente dentro da lista cliente 
+	listacliente* proximo;//apontador da lista
+};
+
+/**
+* brief\
+* (1º)A funçao apresentada demonstra os clientes que se encontram no ficheiro "Cliente.txt",
+*  verificando tambem se o ficheiro existe.
+*
+ */
+listacliente* Clientes();
+
 
 #endif // !Clienteh

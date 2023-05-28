@@ -8,6 +8,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
+#pragma warning(disable : 4996)
 #pragma once
 
 #ifndef GestorH
@@ -19,8 +20,12 @@ typedef struct Gestor {
 	int id;
 	char nome[N];
 	char correiemail[N];
-	
-
 }Gestor;
+
+typedef struct ListaGestores ListaGestores;
+typedef struct ListaGestores {
+	Gestor g;
+	struct ListaGestores* proximo;
+}ListaGestores;
 
 #endif // !GestorH
